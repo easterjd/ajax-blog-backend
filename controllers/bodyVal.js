@@ -1,7 +1,7 @@
 const shortID = require('short-id')
 const dateFormat = require('dateformat')
 let now = new Date()
-const format = "dd/mm/yyyy"
+const format = "mm/dd/yyyy"
 
 function bodyVal (body) {
   const title = body.title
